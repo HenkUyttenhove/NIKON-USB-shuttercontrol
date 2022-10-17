@@ -12,6 +12,7 @@ However, because I prefer to work remotely, it's important for me to be able to 
 
 The physical cabling is easy, the yellow and red cable are combined together in a "NO" (normally open) contact while white is the other contact.
 So when the USBRELAY device is activated, the relay is activated and the shutter is open.
+(see also https://www.cloudynights.com/topic/457536-usb-corded-shutter-control-for-nikon/ but the USB to serial didn't work for me)
 
 **How is code build**
 
