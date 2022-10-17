@@ -10,6 +10,9 @@ However, because I prefer to work remotely, it's important for me to be able to 
 - USBRELAY (For example https://www.amazon.com/Relays-Channel-Programmable-Computer-Control/dp/B08CZRT6N8)
 - Nikon Shutter release cable (to cut and use)  (For example: https://www.amazon.com/Zeikos-ZE-MCDC2-Control-Shutter-Release/dp/B002UD4OB6)
 
+The physical cabling is easy, the yellow and red cable are combined together in a "NO" (normally open) contact while white is the other contact.
+So when the USBRELAY device is activated, the relay is activated and the shutter is open.
+
 **How is code build**
 
 As I am not used to work with C and I prefer not to create script in Bash, I have preferred to work with Python.  However, Kstars/Ekos don't have native Python support.  I didn't wanted to recompile the code and I wanted to stay as close to the original code so the only option was to use the API's of Indi.
