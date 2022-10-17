@@ -22,8 +22,10 @@ When you want to interact with Kstars/Ekos, you can use three commands as part o
 https://indilib.org/develop/developer-manual/104-scripting.html
 
 The main challenge is that these commands are console based so it requires some tricks to integrate this in the Python code.
+The first command in the code is a wait loop until Kstars/Ekos is triggered while the second command is used to retreive all the settings of Kstars/Ekos including the shutter timer and to use this in the actions for USBrelay.
 
 *Additional compilation*
-
+For Ubunutu (on pc or Raspberry):  apt-get install usbrelay
+(note that the usbrelay command as part of apt is buggy, compilation from code may be required)
 
 
